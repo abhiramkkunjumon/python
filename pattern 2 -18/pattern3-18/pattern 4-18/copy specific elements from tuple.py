@@ -1,0 +1,6 @@
+a=(3,5,6,7,8)
+b=()
+li=list(b)
+li.append(a[3])
+b=tuple(li)
+print(li)

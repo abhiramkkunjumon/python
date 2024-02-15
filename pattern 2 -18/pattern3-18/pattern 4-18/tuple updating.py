@@ -1,0 +1,5 @@
+a=(1,2,3,4,"python")
+list1=list(a)
+list1.append("java")
+a=tuple(list1)
+print(a)
